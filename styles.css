@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.holder {
+    display: flex;
+    gap: 10px; /* Adjust gap as needed */
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
